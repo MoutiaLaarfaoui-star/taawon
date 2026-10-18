@@ -13,26 +13,58 @@
   
   <body>
     
-    <header class="flex justify-between flex-col sm:flex-col lg:flex-row bg-[#917A63] text-white">
+        <header class="flex justify-between flex-col sm:flex-col lg:flex-row bg-[#917A63] text-white">
+          <div class="flex hidden md:block" >
+         <div class="flex">
 
-      <div class="flex " >
-
-        <img src="/assets/logo/taawen-logo.png" alt="" class="w-25 p-3 rounded-full" />
-        <h1 class="p-8 text-3xl pl-2 text-[#3E5C35] font-bold">TAAWON</h1>
+             <img src="/assets/logo/taawen-logo.png" alt="" class="w-25 p-3 rounded-full" />
+             <h1 class="p-8 text-3xl pl-2 text-[#3E5C35] font-bold">TAAWON</h1>
+         </div>
 
       </div>
+
+       <details class="w-full md:hidden">
+    <summary class="flex justify-between items-center p-4 cursor-pointer list-none select-none">
       
-      <div class="text-2xl flex flex-col lg:flex-row lg:ml-auto ">
+     
+      <div class="flex items-center gap-2">
+        <img src="/assets/logo/taawen-logo.png" alt="Logo" class="w-18 h-18 p-1 rounded-full bg-white/10" />
+        <h1 class="text-3xl font-bold text-[#3E5C35]">TAAWON</h1>
+      </div>
+      <span class="text-5xl ">≡</span>
+      
+    </summary>
 
-        <a href="index.html" class="w-full lg:w-auto box-border p-[10px] bg-[#3E5C35] hover:bg-[#3E5C35]/90 pt-8 pb-9 hover:border-b-4">Accueil</a>
+    <div class="text-2xl bg-black/10 border-t border-white/20 flex flex-col md:flex-row gap-4">
+        <a href="index.html" class="w-full lg:w-auto box-border p-[10px]  hover:bg-[#3E5C35]/90 pt-8 pb-9 hover:border-b-4">Accueil</a>
 
-        <a href="#" class="w-full lg:w-auto box-border p-[10px] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Annuaire</a>
+        <a href="Annuaire.html" class="w-full lg:w-auto box-border p-[10px] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Annuaire</a>
 
-        <a href="#" class="w-full lg:w-auto box-border p-[10px] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Mission et impact</a>
+        <a href="apropos.html" class="w-full lg:w-auto box-border p-[8px] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Mission et impact</a>
 
-        <a href="#" class="w-full lg:w-auto box-border p-[10px] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Devenir partenaire</a>
+        <a href="sing-up.html" class="w-full lg:w-auto box-border p-[10px] bg-[#3E5C35] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Devenir partenaire</a>
+    </div>
+
+  </details>
+       
+      
+       
+    <div class="hidden md:block">
+         <div class="text-2xl flex flex-col lg:flex-row lg:ml-auto ">
+
+        <a href="index.html" class="w-full lg:w-auto box-border p-[10px]  hover:bg-[#3E5C35]/90 pt-8 pb-9 hover:border-b-4">Accueil</a>
+
+        <a href="Annuaire.html" class="w-full lg:w-auto box-border bg-[#3E5C35] p-[10px] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Annuaire</a>
+
+        <a href="apropos.html" class="w-full lg:w-auto box-border p-[10px] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Mission et impact</a>
+
+        <a href="sing-up.html" class="w-full lg:w-auto box-border p-[10px] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Devenir partenaire</a>
 
       </div>
+    </div>
+      
+
+      
       
     </header>
 
@@ -51,18 +83,18 @@
 
       <section class="flex items-center justify-center mt-0 flex-col p-5">
         <h2 class="text-5xl font-[Abril_Fatface] lg:text-8xl md:text-7xl mt-20">
-          Nos <span class="text-amber-300 ">Produits</span>
+          Nos <span class="text-[#E0A526] ">Produits</span>
         </h2>
         <p class="text-sm md:text-2xl lg:text-3xl text-taupe-400 mb-20">
           Découvrez les produits du la cooperative.
         </p>
       </section>
 
-      <hr class="mr-auto ml-auto w-[420px] md:w-[748px] lg:w-[1200px] mb-10  mr-10 ml-10">
+      <hr class="mr-auto ml-auto  md:w-[748px] lg:w-[1200px] mb-10  mr-10 ml-10">
 
       <section class="flex justify-center">
         <div class="p-8 flex justify-between w-[640px] md:w-[868px] lg:w-[1700px] gap-5 flex-wrap justify-center">
-          <article class="flex flex-col w-[400px] h-[500px] bg-[#3E5C35] rounded-[20px] items-center p-5">
+          <article class="flex flex-col w-[310px] h-[450px]  md:w-[400px] md:h-[500px] bg-[#3E5C35] rounded-[20px] items-center p-5">
             <img src="/Project-photos/Argana/Product 1: Culinary Argan Oil.jpg" alt="first product picture" class="w-[352px] h-[232px] mt-0 rounded-[20px]">
             <hr class="w-[340px] border-t-2 border-[#FFFFFF] mt-4" />
             <h2 class="text-[30px] font-[Abril_Fatface] text-[#E0A526] mt-[5px]">Huile d'Argan Culinaire</h2>
@@ -70,10 +102,10 @@
             <p class="text-white mt-auto border-t-1 font-bold">160 MAD</p>
           </article>
 
-          <article class="flex flex-col w-[400px] h-[500px] bg-[#3E5C35] rounded-[20px] items-center p-5">
+          <article class="flex flex-col w-[310px] h-[450px]  md:w-[400px] md:h-[500px] bg-[#3E5C35] rounded-[20px] items-center p-5">
             <img src="/Project-photos/Argana/Product 2: Cosmetic Argan Oil for Skin.jpg" alt="first product picture" class="w-[352px] h-[232px] mt-0 rounded-[20px]">
             <hr class="w-[340px] border-t-2 border-[#FFFFFF] mt-4" />
-            <h2 class="text-[30px] font-[Abril_Fatface] text-[#E0A526] mt-[5px]">
+            <h2 class="text-xl md:text-[30px] font-[Abril_Fatface] text-[#E0A526] mt-[5px]">
               Huile d'Argan Cosmétique pour la Peau
             </h2>
             <p class="text-white">
@@ -82,7 +114,7 @@
             <p class="text-white mt-auto border-t-1 font-bold">120 MAD</p>
           </article>
 
-          <article class="flex flex-col w-[400px] h-[500px] bg-[#3E5C35] rounded-[20px] items-center p-5">
+          <article class="flex flex-col w-[310px] h-[450px]  md:w-[400px] md:h-[500px] bg-[#3E5C35] rounded-[20px] items-center p-5">
             <img src="/Project-photos/Argana/Product 3: Argan Hair Oil Spray.jpg" alt="first product picture" class="w-[352px] h-[232px] mt-0 rounded-[20px]">
             <hr class="w-[340px] border-t-2 border-[#FFFFFF] mt-4" />
             <h2 class="text-[30px] font-[Abril_Fatface] text-[#E0A526] mt-[5px]">
@@ -95,7 +127,7 @@
           </article>
 
           <article
-            class="flex flex-col w-[400px] h-[500px] bg-[#3E5C35] rounded-[20px] items-center p-5"
+            class="flex flex-col w-[310px] h-[450px]  md:w-[400px] md:h-[500px] bg-[#3E5C35] rounded-[20px] items-center p-5"
           >
             <img
               src="/Project-photos/Argana/Product 4: Argan Face Cream.jpg"
@@ -113,7 +145,7 @@
           </article>
 
           <article
-            class="flex flex-col w-[400px] h-[500px] bg-[#3E5C35] rounded-[20px] items-center p-5"
+            class="flex flex-col w-[310px] h-[450px]  md:w-[400px] md:h-[500px] bg-[#3E5C35] rounded-[20px] items-center p-5"
           >
             <img
               src="/Project-photos/Argana/Product 5: Argan Amlou Spread.jpg"
@@ -131,7 +163,7 @@
           </article>
 
           <article
-            class="flex flex-col w-[400px] h-[500px] bg-[#3E5C35] rounded-[20px] items-center p-5"
+            class="flex flex-col w-[310px] h-[450px]  md:w-[400px] md:h-[500px] bg-[#3E5C35] rounded-[20px] items-center p-5"
           >
             <img
               src="/Project-photos/Argana/Product 6: Natural Argan Soap Bar.jpg"
