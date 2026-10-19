@@ -9,59 +9,17 @@
 </head>
 
 <body>
-        <header class="flex justify-between flex-col sm:flex-col lg:flex-row bg-[#917A63] text-white">
-          <div class="flex hidden md:block" >
-         <div class="flex">
-
-             <img src="/assets/logo/taawen-logo.png" alt="" class="w-25 p-3 rounded-full" />
-             <h1 class="p-8 text-3xl pl-2 text-[#3E5C35] font-bold">TAAWON</h1>
-         </div>
-
-      </div>
-
-       <details class="w-full md:hidden">
-    <summary class="flex justify-between items-center p-4 cursor-pointer list-none select-none">
-      
-     
-      <div class="flex items-center gap-2">
-        <img src="/assets/logo/taawen-logo.png" alt="Logo" class="w-18 h-18 p-1 rounded-full bg-white/10" />
-        <h1 class="text-3xl font-bold text-[#3E5C35]">TAAWON</h1>
-      </div>
-      <span class="text-5xl ">≡</span>
-      
-    </summary>
-
-    <div class="text-2xl bg-black/10 border-t border-white/20 flex flex-col md:flex-row gap-4">
-        <a href="index.html" class="w-full lg:w-auto box-border p-[10px]  hover:bg-[#3E5C35]/90 pt-8 pb-9 hover:border-b-4">Accueil</a>
-
-        <a href="Annuaire.html" class="w-full lg:w-auto box-border p-[10px] bg-[#3E5C35] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Annuaire</a>
-
-        <a href="apropos.html" class="w-full lg:w-auto box-border p-[8px] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Mission et impact</a>
-
-        <a href="sing-up.html" class="w-full lg:w-auto box-border p-[10px]  hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Devenir partenaire</a>
-    </div>
-
-  </details>
-       
-      
-       
-    <div class="hidden md:block">
-         <div class="text-2xl flex flex-col lg:flex-row lg:ml-auto ">
-
-        <a href="index.html" class="w-full lg:w-auto box-border p-[10px]  hover:bg-[#3E5C35]/90 pt-8 pb-9 hover:border-b-4">Accueil</a>
-
-        <a href="Annuaire.html" class="w-full lg:w-auto box-border bg-[#3E5C35] p-[10px] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Annuaire</a>
-
-        <a href="apropos.html" class="w-full lg:w-auto box-border p-[10px] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Mission et impact</a>
-
-        <a href="sing-up.html" class="w-full lg:w-auto box-border p-[10px] hover:bg-[#3E5C35]/60 pt-8 pb-9 hover:border-b-4">Devenir partenaire</a>
-
-      </div>
-    </div>
-      
-
-      
-      
+    <header class="flex flex-col items-center bg-[#917A63] p-4 lg:flex-row lg:justify-between">
+        <div class="flex items-center justify-center">
+            <img src="img/taawen-logo.png" alt="Logo TAAWON" class="rounded-full w-15 md:w-20 p-1">
+            <h2 class="text-[#3E5C35] text-2xl md:text-3xl font-bold font-serif p-2 pl-2">TAAWON</h2>
+        </div>
+        <div class="flex justify-between gap-4 pb-0 text-white md:text-2xl lg:text-2xl lg:flex-row">
+            <a href="index.html" class="py-4 lg:px-8">accueil</a>
+            <a href="Annuaire.html" class="py-4 lg:px-8 px-4 bg-[#3E5C35] rounded-[20px]">Annuaire</a>
+            <a href="apropos.html" class="py-2 md:py-4 lg:px-8">Mission et impact</a>
+            <a href="sing-up.html" class="py-2 md:p-4 lg:px-8">Devenir partenaire</a>
+        </div>
     </header>
     <section
         class="bg-cover bg-center bg-[url('img/taawon-bg.png')] w-full min-h-100 py-10 px-4 lg:min-h-150 lg:py-30 lg:px-20">
@@ -95,7 +53,7 @@
         <h2 class="p-5 text-black font-bold text-base pb-2 font-serif md:text-2xl lg:text-3xl">Textile</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-10 p-8 font-serif">
             <article class="bg-[#3E5C35] rounded-3xl w-full max-w-[300px] p-4 text-[#F5EFD9] flex flex-col ">
-                <img src="img/jallaba.jpg" alt="Jellaba et jabador de Fès" class="w-full h-48 object-cover rounded-3xl">
+                <img src="assets/images/jallaba.png" alt="Jellaba et jabador de Fès" class="w-full h-48 object-cover rounded-3xl">
                 <hr class="border-[#F5EFD9]/50 my-4">
                 <div class="space-y-1 flex-1">
                     <h3 class="text-3xl text-[#E0A526]">jabador</h3>
@@ -105,52 +63,12 @@
                     <p class="text-lg">Catégorie : Textile </p>
                     <p class="text-lg">Jellabas et jabadors cousus à la main.</p>
 
-    <section
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center lg:mx-40 lg:max-w-[1600px] [&_article]:mb-6">
-        <article class="bg-[#3E5C35] rounded-3xl w-full max-w-[300px] p-4 text-[#F5EFD9] flex flex-col mb-6">
-            <img src="assets/images/belgha.jpg" alt="Babouches de Belgha" class="w-full h-48 object-cover rounded-3xl">
-            <hr class="border-[#F5EFD9]/50 my-4">
-            <div class="space-y-1 flex-1">
-                <h3 class="text-3xl text-[#E0A526]">Belgha</h3>
-                <p class="text-lg">coopérative du belgha</p>
-                <p class="text-lg">nombre de produits : 6</p>
-                <p class="text-lg">ville : marrakech</p>
-            </div>
-            <a href="#" class="text-[#E0A526] text-lg mt-4 hover:underline">vois plus →</a>
-        </article>
-        <article class=" bg-[#3E5C35] rounded-3xl w-full max-w-[300px] p-4 text-[#F5EFD9] flex flex-col lg:mb-6">
-            <img src="assets/images/argan.jpg" alt="argan" class="w-full h-48 object-cover rounded-3xl">
-            <hr class="border-[#F5EFD9]/50 my-4">
-            <div class="space-y-1 flex-1">
-                <h3 class="text-3xl text-[#E0A526]">ARGANA</h3>
-                <p class="text-lg">coopérative huile d'argan</p>
-                <p class="text-lg">nombre du prodoits : 6</p>
-                <p class="text-lg">ville : agadir</p>
-            </div>
-            <a href="ARGANA-products.html" class="text-[#E0A526] text-lg mt-4 hover:underline">vois plus →</a>
-        </article>
-        <article class=" bg-[#3E5C35] rounded-3xl w-full max-w-[300px] p-4 text-[#F5EFD9] flex flex-col lg:mb-6">
-            <img src="assets/images/fakhar.jpg" alt="#" class="w-full h-48 object-cover rounded-3xl">
-            <hr class="border-[#F5EFD9]/50 my-4">
-            <div class="space-y-1 flex-1">
-                <h3 class="text-3xl text-[#E0A526]">safi.fkhar</h3>
-                <p class="text-lg">coopérative fakhar</p>
-                <p class="text-lg">nombre du prodoits : 6</p>
-                <p class="text-lg">ville : safi</p>
-            </div>
-            <a href="#" class="text-[#E0A526] text-lg mt-4 hover:underline">vois plus →</a>
-        </article>
-        <article class="bg-[#3E5C35] rounded-3xl w-full max-w-[300px] p-4 text-[#F5EFD9] flex flex-col lg:mb-6 ">
-            <img src="assets/images/jallaba.jpg" alt="#" class="w-full h-48 object-cover rounded-3xl">
-            <hr class="border-[#F5EFD9]/50 my-4">
-            <div class="space-y-1 flex-1">
-                <h3 class="text-3xl text-[#E0A526]">jabador</h3>
-                <p class="text-lg">coopérative du jallaba et jabador</p>
-                <p class="text-lg">nombre du prodoits : 6</p>
-                <p class="text-lg">ville : fes</p>
+                </div>
+                <a href="#" class="text-[#E0A526] text-lg mt-4 hover:underline">vois plus →</a>
+            </article>
 
             <article class="bg-[#3E5C35] rounded-3xl max-w-[300px] w-full p-4 text-[#F5EFD9] flex flex-col">
-                <img src="img/kaftan.png" alt="Kaftana" class="w-full h-48 object-cover rounded-3xl">
+                <img src="assets/images/kaftan.png" alt="Kaftana" class="w-full h-48 object-cover rounded-3xl">
                 <hr class="border-[#F5EFD9]/50 my-4">
                 <div class="space-y-1 flex-1">
                     <h3 class="text-3xl text-[#E0A526]">Kaftana</h3>
@@ -168,7 +86,7 @@
         <h2 class="p-5 text-black font-bold text-base pb-2 font-serif md:text-2xl lg:text-3xl">Artisanat</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-10 p-8 font-serif">
             <article class="bg-[#3E5C35] rounded-3xl w-full max-w-[300px] p-4 text-[#F5EFD9] flex flex-col">
-                <img src="img/b.jpg" alt="Babouches de Belgha" class="w-full h-48 object-cover rounded-3xl">
+                <img src="assets/images/belgha.jpg" alt="Babouches de Belgha" class="w-full h-48 object-cover rounded-3xl">
                 <hr class="border-[#F5EFD9]/50 my-4">
                 <div class="space-y-1 flex-1">
                     <h3 class="text-3xl text-[#E0A526]">Belgha</h3>
@@ -181,7 +99,7 @@
                 <a href="#" class="text-[#E0A526] text-lg mt-4 hover:underline">vois plus →</a>
             </article>
             <article class="bg-[#3E5C35] rounded-3xl max-w-[300px] w-full p-4 text-[#F5EFD9] flex flex-col">
-                <img src="img/artisanat.png" alt="Tapis zarbia" class="w-full h-48 object-cover rounded-3xl">
+                <img src="assets/images/zarbia.jpg" alt="Tapis zarbia" class="w-full h-48 object-cover rounded-3xl">
                 <hr class="border-[#F5EFD9]/50 my-4">
                 <div class="space-y-1 flex-1">
                     <h3 class="text-3xl text-[#E0A526]">Zarbia al-mandilia</h3>
@@ -194,7 +112,7 @@
                 <a href="#" class="text-[#E0A526] text-lg mt-4 hover:underline">vois plus →</a>
             </article>
             <article class=" bg-[#3E5C35] rounded-3xl w-full max-w-[300px] p-4 text-[#F5EFD9] flex flex-col ">
-                <img src="img/fakhar.jpg" alt="Poterie de Safi" class="w-full h-48 object-cover rounded-3xl">
+                <img src="assets/images/fakhar.jpg" alt="Poterie de Safi" class="w-full h-48 object-cover rounded-3xl">
                 <hr class="border-[#F5EFD9]/50 my-4">
                 <div class="space-y-1 flex-1">
                     <h3 class="text-3xl text-[#E0A526]">safi.fkhar</h3>
@@ -207,7 +125,7 @@
                 <a href="#" class="text-[#E0A526] text-lg mt-4 hover:underline">vois plus →</a>
             </article>
             <article class="bg-[#3E5C35] rounded-3xl max-w-[300px] w-full p-4 text-[#F5EFD9] flex flex-col">
-                <img src="img/cuir.jpg" alt="Produits en cuir de Fès" class="w-full h-48 object-cover rounded-3xl">
+                <img src="assets/images/cuir.jpg" alt="Produits en cuir de Fès" class="w-full h-48 object-cover rounded-3xl">
                 <hr class="border-[#F5EFD9]/50 my-4">
                 <div class="space-y-1 flex-1">
                     <h3 class="text-3xl text-[#E0A526]">DAR DBAGHH</h3>
@@ -220,7 +138,7 @@
                 <a href="#" class="text-[#E0A526] text-lg mt-4 hover:underline">vois plus →</a>
             </article>
             <article class="bg-[#3E5C35] rounded-3xl max-w-[300px] w-full p-4 text-[#F5EFD9] flex flex-col">
-                <img src="img/lkhechab.jpg" alt="Meubles en bois d'Essaouira"
+                <img src="assets/images/lkhechab.jpg" alt="Meubles en bois d'Essaouira"
                     class="w-full h-48 object-cover rounded-3xl">
                 <hr class="border-[#F5EFD9]/50 my-4">
                 <div class="space-y-1 flex-1">
@@ -239,7 +157,7 @@
         <h2 class="p-5 text-black font-bold text-base pb-2 font-serif md:text-2xl lg:text-3xl">Alimentaire</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-10 p-8 font-serif">
             <article class="bg-[#3E5C35] rounded-3xl max-w-[300px] w-full p-4 text-[#F5EFD9] flex flex-col ">
-                <img src="img/lhlib.png" alt="Produits laitiers de Taroudant"
+                <img src="assets/images/al7alib.jpg" alt="Produits laitiers de Taroudant"
                     class="w-full h-48 object-cover rounded-3xl">
                 <hr class="border-[#F5EFD9]/50 my-4">
                 <div class="space-y-1 flex-1">
@@ -253,7 +171,7 @@
                 <a href="#" class="text-[#E0A526] text-lg mt-4 hover:underline">vois plus →</a>
             </article>
             <article class=" bg-[#3E5C35] rounded-3xl w-full max-w-[300px] p-4 text-[#F5EFD9] flex flex-col">
-                <img src="img/argan.jpg" alt="Huile d'argan" class="w-full h-48 object-cover rounded-3xl">
+                <img src="assets/images/argan.jpg" alt="Huile d'argan" class="w-full h-48 object-cover rounded-3xl">
                 <hr class="border-[#F5EFD9]/50 my-4">
                 <div class="space-y-1 flex-1">
                     <h3 class="text-3xl text-[#E0A526]">ARGANA</h3>
